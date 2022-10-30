@@ -2,7 +2,7 @@ public class EmployeesActions {
     public static void printAllEmployees(Employee[] arr) {
         for (byte i = 0; i < arr.length; i++) {
             if (arr[i] != null) {
-                System.out.println(arr[i]);
+                System.out.println(arr[i].toString());
             }
         }
     }
