@@ -43,13 +43,7 @@ public class EmployeesActions {
     }
 
     public static void meanSalary(Employee[] arr) {
-        double sum = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] != null) {
-                sum = sum + arr[i].getSalary();
-            }
-        }
-        double mean = sum / arr.length;
+        double mean = printSumSalaries(arr) / arr.length;
         System.out.println("Средняя зарплата: "+mean);
     }
 
