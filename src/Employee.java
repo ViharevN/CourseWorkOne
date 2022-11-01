@@ -13,8 +13,7 @@ public class Employee {
         this.middleName = middleName;
         this.lastName = lastName;
         this.salary = salary;
-        this.id = counter;
-        counter++;
+        this.id = counter++;
     }
 
     public int getDepartNum() {
